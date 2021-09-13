@@ -2,7 +2,7 @@
 A classifier for hand-written digit images using KNN algorithm (no library used) and a side tool to reduce a big dataset to a smaller representative dataset 
 using Kmean Clustering (no library again) - First year project in 2018 
 
-#KNN classifier
+# KNN classifier
 To start the classifier launch the KNN.java file.
 In the KNN.java file you can setup the algorithm as follow:
   -Line 8 -> TESTS is the number of test images you want to classify
@@ -13,7 +13,7 @@ In the KNN.java file you can setup the algorithm as follow:
 Once the program is done it will open a window that shows all the test images with their prediction highlighted in green if correct or in red otherwise. 
 It also prints you the accuracy and the execution time.
  
-#KMeans clustering tool
+# KMeans clustering tool
 To use the tool launch the KMeansClustering.java file.
 You can setup the program as follow:
   -Line 11 -> K is the size you want for the reduced dataset
