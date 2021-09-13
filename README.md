@@ -20,9 +20,13 @@ It also prints you the accuracy and the execution time.
 # KMeans clustering tool
 To use the tool launch the KMeansClustering.java file.
 You can setup the program as follow:
+
   -Line 11 -> K is the size you want for the reduced dataset
+  
   -Line 12 -> maxIters is the maximum number of rounds done by the algorithm.
+  
   -Lines 15-16 -> the paths of the dataset you want to reduce
+  
   -Lines 26-27 -> the paths where to write the new dataset.
   
   
