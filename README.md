@@ -4,10 +4,14 @@ using Kmean Clustering (no library again) - First year project in 2018
 
 # KNN classifier
 To start the classifier launch the KNN.java file.
-In the KNN.java file you can setup the algorithm as follow:  
+In the KNN.java file you can setup the algorithm as follow: 
+
   -Line 8 -> TESTS is the number of test images you want to classify. 
+  
   -Line 9 -> K is the hyper parameter the KNN algorithm (the number of neighboor to take into account). If too small you will lose in precision.  
+  
   -Lines 10 to 13 -> Here are the different paths to the datasets you want to use.  
+  
   -Line 410 -> You can choose which distance metric you want to use either inverted similarity or Euclidean distance. Just swap line 410 with the commented line 413.  
  
 Once the program is done it will open a window that shows all the test images with their prediction highlighted in green if correct or in red otherwise. 
